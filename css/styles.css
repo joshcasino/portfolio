@@ -9,11 +9,6 @@
   padding-bottom: 30px
 }
 
-.jumbotron {
-    background: url("../img/self.jpg") no-repeat center center;
-    background-position: 0% 60%;
-    background-size: cover;
-    max-height: 300px;
 }
 .smalltext {
   font-size: 10pt;
@@ -32,10 +27,59 @@ p {
   text-align: center;
 }
 
+.badlands {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.back1 {
+  background-image: url("../img/back1.jpg");
+  width: 50%;
+  height: auto;
+  float: left;
+}
+.row1{
+width: 50%;
+height: 500px;
+}
+
 .row-padded {
-padding: 35px;
-background-color: #F7F7F7;
-border: 1px solid #DDD;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ccf5ff;
+  border-style: hidden;
+  border-radius: 10px;
+}
+
+.row {
+  border-radius: 10px
+}
+
+.text {
+  word-wrap: break-word;
+  height: auto;
+  display: block;
+
+}
+
+.row {
+  background-repeat: no-repeat;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+}
+
+.project-box {
+  background-color: #fff
+  color: black
 }
 
 ul {
