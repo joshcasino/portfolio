@@ -1,0 +1,43 @@
+.mainphoto {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.intro-points {
+  padding-bottom: 30px
+}
+
+.jumbotron {
+    background: url("../img/self.jpg") no-repeat center center;
+    background-position: 0% 60%;
+    background-size: cover;
+    max-height: 300px;
+}
+.smalltext {
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+p {
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 10pt;
+}
+
+.bullet {
+  list-style-position: inside;
+  list-style-type: circle;
+  text-align: center;
+}
+
+.row-padded {
+padding: 35px;
+background-color: #F7F7F7;
+border: 1px solid #DDD;
+}
+
+ul {
+  list-style: none;
+}
