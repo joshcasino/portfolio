@@ -8,6 +8,9 @@
   font-weight: bold;
 }
 
+.container {
+  background-image: radial-gradient(#6699ff, #fff);
+}
 p {
   text-align: left;
   font-family: sans-serif;
